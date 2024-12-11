@@ -1,0 +1,163 @@
+
+.meet-our-team-section {
+    padding: 50px 20px;
+    background-color: var(--body_background);
+    /* text-align: center; */
+}
+
+
+.meet-our-team-section h1 {
+    font-size: 2.5rem;
+    color: var(--body_color);
+    margin-bottom: 20px;
+    text-align: start;
+    margin-left: 10%;
+    font-size: 500%;
+    font-weight: 400;
+}
+.meet-our-team-section h2 {
+    font-size: 2.5rem;
+    color: var(--body_color);
+    margin-bottom: 20px;
+    text-align: start;
+    margin-left: 10%;
+ 
+}
+.hr4{
+    width: 10%;    
+    margin-left: 0;
+
+}
+.meet-our-team-section p {
+    font-size: 1.2rem;
+    color: var(--body_color);
+    margin-bottom: 40px;
+    text-align: start;
+    margin-left: 10%;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 90%; 
+    justify-content: space-evenly; 
+
+}
+
+
+.team-member-card {
+    flex: 0 0 33.33%; 
+    box-sizing: border-box;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 70%;
+    height: 70%;
+}
+
+
+.team-member-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.team-member-name {
+    font-size: 1.5rem;
+    color: var(--body_color);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    align-items: start;
+}
+
+.team-member-position {
+    font-size: 1rem;
+    color: var(--body_color);
+    margin-bottom: 15px;
+    text-align: start;
+}
+
+.small-button {
+    border: none;
+    background-color: #A67B48;
+    color: white;
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px;
+    cursor: pointer;
+    font-size: 100%;
+    padding: 0;
+    margin-left: 15%;
+   
+}
+
+.slide-button-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--body_background);
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    margin-right: 97%
+}
+.slide-button-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--body_background);
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    margin-left: 97%
+}
+
+
+@media (max-width: 1024px) {
+    .team-member-card {
+        flex: 0 0 100%; /* Show 2 cards per slide on tablets */
+   
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .team-member-card {
+        flex: 0 0 100%; 
+    }
+
+    .small-button {
+        font-size: 0.9rem; /* Smaller button on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .meet-our-team-section h1 {
+        font-size: 1.8rem; /* Smaller header on very small screens */
+    }
+
+    .meet-our-team-section h2 {
+        font-size: 1.5rem; /* Adjusted for small screens */
+    }
+
+    .team-member-card {
+        padding: 0 5px; /* Reduced padding for very small screens */
+    }
+
+    .small-button {
+        width: 30px; /* Smaller button on very small screens */
+        height: 30px;
+    }
+}

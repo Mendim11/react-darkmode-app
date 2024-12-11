@@ -1,0 +1,145 @@
+.practice-area-section {
+    padding: 20px;
+    background-color: var(--body_background);
+}
+
+.top-section-practice-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top-section-practice-area h1 {
+    font-size: 2.5rem;
+    color: var(--body_color);
+    font-size: 500%;
+    font-weight: 400;
+    margin-left: 10%;
+}
+h3{
+    width: 30%;    
+    margin-left: 27%;
+
+}
+.practice-area-button {
+    padding: 10px 20px;
+    border: 1px solid var(--body_color);
+    background-color: transparent;
+    color: var(--body_color);
+    border-radius: 50%; 
+    width: 100px; 
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 5%;
+}
+
+
+.bottom-section-practice-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin: 5%; */
+    margin-left: 10%;
+
+}
+
+.practice-area-item {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--body_color);
+    text-align: start;
+
+}
+.practice-area-item2{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--body_color);
+    margin-top: 5%;
+    text-align: start;
+}
+.image-container{
+    position: relative;
+}
+.statue{
+    height: 70%;
+    width: 100%;
+    margin-top: 10%;
+    align-items: center;
+
+}
+.text-overlay {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(0, 0, 0); 
+    font-size: 3rem;
+    text-align: start;
+    padding: 5%;
+    width: 90%; 
+    height: 50%;
+    max-width: 100%; 
+}
+
+
+.practice-area-logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.practice-area-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.practice-area-item p {
+    font-size: 1rem;
+    color: var(--body_color);
+}
+
+
+@media (max-width: 480px) {
+    .practice-area-item, .practice-area-item2{
+        width: 100%;
+    }
+ 
+    .text-overlay{
+        font-size: 0.6rem;
+    }
+}
+@media (max-width: 768px) {
+    .practice-area-item, .practice-area-item2 {
+        width: 45%;
+    }
+    .text-overlay{
+        font-size: 1.2rem;
+    }
+ 
+}
+
+@media (max-width: 1024px) {
+    .practice-area-item, .practice-area-item2 {
+        width: 100%;
+    }
+    .text-overlay{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1rem; 
+        width: 90%;
+    }
+  
+}   
+
+
+
+
+
+

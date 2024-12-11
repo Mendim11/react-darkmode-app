@@ -1,0 +1,140 @@
+.about-us-section {
+    padding: 20px;
+    background-color: var(--body_background);
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.left-top {
+    width: 50%;
+}
+
+.left-top h1 {
+    font-size: 2.5rem;
+    text-align: start;
+    padding-left: 15%;
+    color: var(--body_color);
+    font-weight: 300;
+}
+
+.hr2 {
+    width: 20%;
+    text-align: start;
+    margin-right: 15%;
+}
+
+.right-top {
+    width: 80%;
+    padding-left: 4%;
+    color: var(--body_color);
+}
+
+.right-top h1 {
+    text-align: start;
+    margin-left: 15%;
+    font-weight: 400;
+}
+
+.right-top p {
+    margin: 10px 0;
+}
+
+.about-us-button {
+    background-color: transparent;
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 3%;
+}
+
+.bottom-section-aboutus {
+    display: flex;
+    justify-content: space-between;
+    color: var(--body_color);
+}
+
+.left-bottom {
+    width: 50%;
+    padding-top: 8%;
+}
+
+.number {
+    font-size: 4rem;
+    margin-right: 20%;
+}
+
+.left-bottom h1 {
+    font-size: 2rem;
+    text-align: start;
+    margin-left: 20%;
+}
+
+.left-bottom p {
+    margin-top: 10px;
+    text-align: start;
+    margin-left: 20%;
+}
+
+.right-bottom {
+    width: 50%;
+    display: flex;
+    gap: 4%;
+    padding-top: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.image-businessman {
+    width: 45%; 
+    height: 70%;
+    border-radius: 8px;
+    margin-top: 10%;
+}
+
+.image-room {
+    width: 50%; 
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .top-section, .bottom-section-aboutus {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-top, .right-top, .left-bottom, .right-bottom {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .right-bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image-businessman, .image-room {
+        width: 70%; /* Full width on smaller screens */
+        margin-bottom: 10px;
+        margin-left: 10%;
+    }
+
+    .number {
+        font-size: 3rem; 
+        margin-right: 0; 
+    }
+
+    .left-bottom h1 {
+        margin-left: 0; 
+    }
+
+    .left-bottom p {
+        margin-left: 0; 
+        text-align: center;
+    }
+}
