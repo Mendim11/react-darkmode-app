@@ -6,25 +6,25 @@ const teamMembers = [
         id: 1,
         name: 'Labinot Halimi',
         position: 'Managing Partner',
-        image: '/labinot.png',
+        image: '/man1.jpg',
     },
     {
         id: 2,
         name: 'Arbenita Jashari',
         position: 'Attorney at law, Partner',
-        image: '/arbenita.png',
+        image: '/woman1.jpg',
     },
     {
         id: 3,
         name: 'Festina Murati',
         position: 'Attorney at law',
-        image: '/festina.png',
+        image: '/woman2.jpg',
     },
     {
         id: 4,
         name: 'Arbenita Jashari',
         position: 'Attorney at law, Partner',
-        image: '/arbenita.png',
+        image: '/woman1.jpg',
     },
 
 ];
